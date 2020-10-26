@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "testing-calculator"
+    }
+  },
+  "defaultProject": "testing-calculator",
+  "cli": {
+    "analytics": "07291d28-d366-4977-8868-d30128c6ee7c"
+  }
 }
