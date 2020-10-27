@@ -6,41 +6,39 @@ describe('addition unit tests', () => {
         // Arrange
         let result = 0;
         // Act
-        result = compute(-1000);
+        result = addition(2 , 2);
         // Assert
-        expect(result).toBe(0);
+        expect(result).toBe(4);
         })
     it('Should add 0 + -2 = -2', () => {
         // Arrange
         let result = 0;
         // Act
-        result = compute(-1000);
+        result = addition(0, -2);
         // Assert
-        expect(result).toBe(0);
+        expect(result).toBe(-2);
         })
     it('Should add 3.0 + 0.1416 = 3.1416',() => {
         // Arrange
         let result = 0;
         // Act
-        result = compute(-1000);
+        result = addition(3.0, 0.1416);
         // Assert
-        expect(result).toBe(0);
+        expect(result).toBe(3.1416);
         })
     it('should add 2.0 + 0.7 = 2.7', () => {
         // Arrange
         let result = 0;
         // Act
-        result = compute(-1000);
+        result = addition(2.0, 0.7);
         // Assert
-        expect(result).toBe(0);
+        expect(result).toBe(2.7);
     })
-    it('should increment if input is positive', () => {
+   // it('should increment if input is positive', () => {
     // Arrange
-        let result = 0;
+     //   let result = 0;
     // Act
-        result = compute(1000);
+     //   result = addition(1000);
     // Assert
-        expect(result).toBe(1001);
-    })
-
-}) 
+     //   expect(result).toBe(1001);
+})
