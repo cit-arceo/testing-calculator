@@ -1,4 +1,6 @@
 export function sqrt(base){
-
-    return Math.sqrt(base);
+    //refactoring
+    let sqrt = 0
+    sqrt = Math.sqrt(base);
+    return sqrt;
   }
