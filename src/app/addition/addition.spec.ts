@@ -33,12 +33,13 @@ describe('addition unit tests', () => {
         result = addition(2.0, 0.7);
         // Assert
         expect(result).toBe(2.7);
-    })
-   // it('should increment if input is positive', () => {
+        })
+    it('should add 0.0 + 0.0 = 0.0', () => {
     // Arrange
-     //   let result = 0;
+        let result = 0;
     // Act
-     //   result = addition(1000);
+        result = addition(0.0,0.0);
     // Assert
-     //   expect(result).toBe(1001);
+        expect(result).toBe(0.0);
+    })
 })
