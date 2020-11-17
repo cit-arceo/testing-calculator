@@ -12,8 +12,7 @@ h1{
   width: 150px;
   text-align: center;
   color: brown;
-}
-  
+}  
 .result {
   font-size: 3.0em;
   font-weight: bold;
@@ -25,7 +24,6 @@ h1{
   font-weight: bold;
   color: black;  
 }
-  
 .operator2 {
   font-size: 1.5em;
   font-weight: bold;
@@ -35,25 +33,42 @@ h1{
 .addition-button {
   cursor: pointer;
   color: blue;
-  padding: 10px 10px; 
-  font-size: 17px; 
+  padding: 12px 12px; 
+  font-size: 18px; 
 }
 .substraction-button {
   cursor: pointer;
   color: green;
-  padding: 10px 10px; 
-  font-size: 17px; 
+  padding: 12px 12px; 
+  font-size: 18px; 
 } 
 .multiplication-button {
   cursor: pointer;
   color: red;
-  padding: 10px 10px; 
-  font-size: 17px; 
+  padding: 12px 12px; 
+  font-size: 18px; 
 } 
 .division-button{
   cursor: pointer;
   color: blueviolet;
-  padding: 10px 10px; 
-  font-size: 17px; 
+  padding: 12px 12px; 
+  font-size: 18px; 
 }
-  
+.exp-button{
+  cursor: pointer;
+  color: chartreuse;
+  padding: 12px 12px; 
+  font-size: 18px; 
+}
+/*.sqr{
+  cursor: pointer;
+  color: deeppink;
+  padding: 12px 12px; 
+  font-size: 18px; 
+}
+.sqrt{
+  cursor: pointer;
+  color: gold;
+  padding: 12px 12px; 
+  font-size: 18px; 
+}*/
